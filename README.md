@@ -4,7 +4,7 @@ Password Controls and Security Policies
 ### Background 
 As a governance analyst it is part of your duties to assess the level of protection offered by implemented controls and minimize the probability of a successful breach. To be successful at your job you often need to know the techniques used by hackers to circumvent implemented controls and propose uplifts to increase the overall level of security in an organization. Gaining valid credentials gives the attackers access to the organization’s IT system, thus circumventing most of perimeter controls in place.
 
-### Project Objective
+### 👨‍💻 Project Objective
 Your job is to crack as many passwords as possible with available tools (e.g. use Hashcat).
 
 Here are your task instructions:
@@ -15,10 +15,12 @@ What controls could be implemented to make cracking much harder for the hacker i
 What can you tell about the organization’s password policy (e.g. password length, key space, etc.)? <br>
 What would you change in the password policy to make breaking the passwords harder?
 
-### Password data
+<hr>
+
+### 🔑 Password data
 <a href="https://github.com/ChebroluTejaswi/Goldman-Sachs-Crack-Leaked-Passsword-Database/blob/main/password.txt" >Here</a> is a sample data file.
 
-### Observations
+### 👁️ Observations
 Using https://crackstation.net/ I cracked the given passwords.
 ```
 e10adc3949ba59abbe56e057f20f883e		md5		123456
@@ -43,7 +45,7 @@ bdda5f03128bcbdfa78d8934529048cf 		md5		 Banda11s
 
 ```
 
-### Conclusion
+### 📝 Conclusion
 
 ```
 All the passwords were encrypted using weaker hash algorithm – MD5. MD5 is insecure and provides a very low level of protection and should not be used in any application. With the help of crackstation.net, it was very simple to crack. 
@@ -58,16 +60,17 @@ Possible steps to make cracking much harder
 
 
 ```
+<hr>
 
-### Report
+### 📜 Report
 Full report can be found at <a href="https://github.com/ChebroluTejaswi/Goldman-Sachs-Crack-Leaked-Passsword-Database/blob/main/Report.docx"> here </a>.
 
-### Resources 
+### 🗂️ Resources 
 To crack the password: https://crackstation.net/
 
 To check the strength of pasword:  https://howsecureismypassword.net/
 
-Concepts:
+References:
 https://en.wikipedia.org/wiki/Salt_(cryptography)
 https://en.wikipedia.org/wiki/Password_cracking
 https://arstechnica.com/information-technology/2013/05/how-crackers-make-minced-meat-out-of-your-passwords/
