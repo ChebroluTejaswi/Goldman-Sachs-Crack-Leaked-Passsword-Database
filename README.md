@@ -19,7 +19,7 @@ What would you change in the password policy to make breaking the passwords hard
 <a href="https://github.com/ChebroluTejaswi/Goldman-Sachs-Crack-Leaked-Passsword-Database/blob/main/password.txt" >Here</a> is a sample data file.
 
 ### Observations
-Using https://crackstation.net/ I cracked the given passwords & narrowed down my observations into this report.
+Using https://crackstation.net/ I cracked the given passwords.
 ```
 e10adc3949ba59abbe56e057f20f883e		md5		123456
 25f9e794323b453885f5181f1b624d0b		md5		123456789
